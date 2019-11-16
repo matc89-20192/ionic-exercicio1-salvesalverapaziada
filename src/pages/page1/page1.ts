@@ -8,14 +8,14 @@ import { IonicPage, NavController } from 'ionic-angular';
 })
 export class Page1 {
 
-  username = "";
+  Usuario = "";
 
   constructor(public navCtrl: NavController) {
 
   }
 
-  setUsername(newUsername: string) {
-    this.username = newUsername;
+  setUsuario(novoUsuario: string) {
+    this.Usuario = novoUsuario;
   }
 
 }

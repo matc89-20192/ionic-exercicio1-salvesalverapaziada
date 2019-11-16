@@ -1,15 +1,15 @@
 <ion-header>
-  <ion-navbar>
-    <button ion-button menuToggle>
+    <ion-navbar>
+        <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Page One</ion-title>
-  </ion-navbar>
+        <ion-title>Page One</ion-title>
+    </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <ion-input type="text" id="editNome" #editNome></ion-input>
-  <button id="btnCumprimentar" (click)="setUsername(editNome.value)"> Cumprimentar </button>
-  <br>
-  <ng-container>Olá, {{username ? username : 'Fulano'}}!</ng-container>
+    <ion-input type="text" id="editNome" #editNome></ion-input>
+    <button id="btnCumprimentar" (click)="setUsuario(editNome.value)"> Cumprimentar </button>
+    <br>
+    <ng-container>Olá, {{usuario ? usuario : 'Fulano'}}!</ng-container>
 </ion-content>
